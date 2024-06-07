@@ -1,3 +1,14 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components{
+    .bg{
+    @apply
+    bg-[url(https://placehold.co/1920x1080)]
+    h-[100vh]
+    bg-cover
+    bg-center
+    bg-no-repeat
+    }
+}

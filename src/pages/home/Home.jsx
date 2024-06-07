@@ -5,7 +5,7 @@ const Home = () => {
     <>
         <div className="bg-zinc-900 text-white min-h-screen flex flex-col items-center">
           
-          <div className="relative w-full h-96 bg-cover bg-center" style="background-image: url('https://placehold.co/1920x1080');">
+          <div className="bg relative w-full h-96 bg-cover bg-center" >
             <div className="absolute inset-0 bg-black opacity-50"></div>
             <div className="relative z-10 flex flex-col items-center justify-center h-full">
               <img src="https://placehold.co/100x100" alt="Notion Logo" className="w-24 h-24 mb-4"/>
