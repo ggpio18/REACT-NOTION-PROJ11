@@ -3,8 +3,8 @@ import react from '@vitejs/plugin-react'
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  base: '/home',
   plugins: [react()],
+  base: '/react-notion/',
   build: {
     outDir: 'dist'
   }
