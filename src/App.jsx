@@ -5,7 +5,7 @@ function App() {
   return (
     <>
         <Routes>
-        <Route path="/react-notion/" element={<Home />} />
+        <Route path="/react-notion" element={<Home />} />
         </Routes>
     </>
   );
